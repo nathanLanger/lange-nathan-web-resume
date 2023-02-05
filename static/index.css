@@ -1,0 +1,60 @@
+* {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+body {
+    background-color:white;
+}
+.title {
+    font-size: 48px;
+    color:black;
+    text-align:center;
+    margin-top: 1cm;
+    margin-bottom: 0px;
+}
+.title_hr {
+    margin-top: 0px;
+    border-top: 1px solid black;
+}
+hr {
+    width: 80%;
+    height: 2px;
+    border: 0px;
+    border-top: 2px solid black;
+    margin-top: 0px;
+}
+.contacts li {
+    /*will put all on one line*/
+    float:left;
+    /*to space out the li's*/
+    list-style-position: inside;
+
+    list-style-type: disc;
+}
+.contacts ul {
+    padding:0%;
+}
+.contacts li:nth-child(1) {
+    margin-left: 20%;
+}
+.contacts li:nth-child(2) {
+    margin-left: 15%;
+}
+.contacts li:nth-child(3) {
+    margin-left: 15%;
+}
+.info {
+    margin-left: 10%;
+}
+h2 {
+    margin-left: 10%;
+    font-size:18px;
+    margin-bottom: 0cm;
+}
+td {
+    width: 20cm;
+}
+.role li {
+    list-style-type:none; 
+    font-style:italic;
+}
